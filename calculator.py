@@ -106,3 +106,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     Calculator(root)
     root.mainloop()
+
+
+# simple calculator with tkinter
