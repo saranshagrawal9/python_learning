@@ -142,6 +142,8 @@ class SnakeLadderGame:
                     font=("Arial", 8, "bold")
                 )
 
+
+        
         # Optionally highlight snake/ladder starts
         for start, end in LADDERS.items():
             x, y = self.position_to_center(start)
@@ -203,9 +205,9 @@ class SnakeLadderGame:
             offset = -10 if i == 0 else 10
             token = self.canvas.create_oval(
                 x - 12 + offset,
-                y - 12,
+                y - 11,
                 x + 12 + offset,
-                y + 12,
+                y + 11,
                 fill=player["color"],
                 outline="black",
                 width=2
